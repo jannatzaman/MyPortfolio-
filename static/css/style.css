@@ -132,10 +132,10 @@ section h2{
 
 .project-container{
 
-    display:flex;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
     justify-content:center;
     gap:30px;
-    flex-wrap:wrap;
 
 }
 
@@ -254,10 +254,10 @@ section h2{
 
 .project-container{
 
-    display:flex;
+    display:grid;
     justify-content:center;
     gap:30px;
-    flex-wrap:wrap;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
 }
 
@@ -292,10 +292,11 @@ section h2{
 
 .project-container{
 
-    display:flex;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
     justify-content:center;
     gap:30px;
-    flex-wrap:wrap;
+    
 
 }
 
@@ -329,10 +330,10 @@ section h2{
 }
 .project-container{
 
-    display:flex;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
     justify-content:center;
     gap:30px;
-    flex-wrap:wrap;
 
 }
 .project-card{
