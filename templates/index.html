@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Jannat Portfolio</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<nav>
+
+<h1>Jannat Portfolio</h1>
+
+
+<ul>
+
+<li>
+<a href="#home">Home</a>
+</li>
+
+
+<li>
+<a href="#about">About</a>
+</li>
+
+
+<li>
+<a href="#skills">Skills</a>
+</li>
+
+
+<li>
+<a href="#projects">Projects</a>
+</li>
+
+
+<li>
+<a href="#contact">Contact</a>
+</li>
+
+
+</ul>
+
+</nav>
+
+</header>
+
+
+<section id="home">
+
+<h2>
+Welcome to My Portfolio
+</h2>
+
+<p>
+I am a Software Developer and AI Enthusiast.
+</p>
+
+</section>
+
+
+
+<section id="about">
+
+<h2>
+About Me
+</h2>
+
+<p>
+I am a BS IET student interested in Web Development, Python and AI.
+</p>
+
+</section>
+
+
+
+<section id="skills">
+
+<h2>
+My Skills
+</h2>
+
+<ul>
+
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>Python</li>
+<li>Flask</li>
+
+</ul>
+
+</section>
+
+
+<section id="projects">
+
+<h2>My Projects</h2>
+
+
+<div class="project-container">
+
+
+<div class="project-card">
+
+<h3>
+AI Resume Screening System
+</h3>
+
+<p>
+An AI based system that extracts resume information,
+matches skills with job requirements and ranks candidates.
+</p>
+
+<p>
+Technology:
+Python, Flask, Machine Learning, SQLite
+</p>
+
+</div>
+
+
+
+<div class="project-card">
+
+<h3>
+Image Classifier
+</h3>
+
+<p>
+A deep learning application that classifies images using CNN model.
+</p>
+
+<p>
+Technology:
+Python, PyTorch, Streamlit
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>
+AI Resume Screening System
+</h3>
+
+<p>
+AI based system that screens resumes and ranks candidates.
+</p>
+
+<p>
+Python | Flask | Machine Learning
+</p>
+
+<a href="#">
+GitHub
+</a>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+<section id="contact">
+
+<h2>Contact Me</h2>
+
+
+<p>
+Email: yourname@gmail.com
+</p>
+
+
+<p>
+LinkedIn:
+<a href="YOUR_LINKEDIN_LINK">
+LinkedIn Profile
+</a>
+</p>
+
+
+<p>
+GitHub:
+<a href="YOUR_GITHUB_LINK">
+GitHub Profile
+</a>
+</p>
+
+
+
+<h3>Send Me a Message</h3>
+
+
+<form method="POST">
+
+
+<input 
+type="text" 
+name="name" 
+placeholder="Your Name"
+>
+
+
+<input 
+type="email" 
+name="email" 
+placeholder="Your Email"
+>
+
+
+<textarea 
+name="message" 
+placeholder="Your Message">
+</textarea>
+
+
+<button type="submit">
+Send
+</button>
+
+
+</form>
+
+
+</section>
+
+
+</body>
+
+</html>
